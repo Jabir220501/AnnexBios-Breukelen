@@ -18,14 +18,17 @@
         <!-- Film Agenda XL -->
         <section id="film_agenda_xl">
             <div id="agenda-container">
-
+                <div class="agenda-text">
+                    <h1>Film Agenda</h1>
+                </div>
+                <div class="lower-row"></div>
             </div>
         </section>
     </main>
     <!-- End Main -->
     <!-- Footer -->
     <?php
-    include './components/Footer/footer.php'
+    // include './components/Footer/footer.php'
         ?>
 </body>
 </html>
