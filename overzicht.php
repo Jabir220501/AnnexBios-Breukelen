@@ -22,7 +22,7 @@
     <!-- End Main -->
     <!-- Footer -->
     <?php
-    include './components/Footer/footer.php'
+    // include './components/Footer/footer.php' 
         ?>
 </body>
 </html>
