@@ -6,6 +6,7 @@
     <title>Movies & Series</title>
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/overzicht.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
      <!-- Header -->
@@ -16,13 +17,15 @@
     <main>
         <!-- Film Agenda XL -->
         <section id="film_agenda_xl">
+            <div id="agenda-container">
 
+            </div>
         </section>
     </main>
     <!-- End Main -->
     <!-- Footer -->
     <?php
-    // include './components/Footer/footer.php' 
+    include './components/Footer/footer.php'
         ?>
 </body>
 </html>

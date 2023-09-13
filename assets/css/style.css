@@ -1,0 +1,25 @@
+#hero .hero_wrapper {
+  background-image: url("../images/header/header_afbeelding.jpg");
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+  padding: 0 var(--main_wrapper);
+}
+#hero .hero_wrapper .hero_info__container {
+  background-color: var(--groen);
+  height: 300px;
+  color: var(--wit);
+}
+#hero .hero_wrapper .hero_info__container .hero_info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+#hero .hero_wrapper .hero_info__container .hero_info h1 {
+  text-transform: uppercase;
+}
+#hero .hero_wrapper .hero_info__container .hero_info button {
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
