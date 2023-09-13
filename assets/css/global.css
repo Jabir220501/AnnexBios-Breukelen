@@ -158,3 +158,44 @@ header nav ul a {
         font-size: 15px;
     }
 }
+
+/* styling footer */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap%27');
+
+body{
+    font-family: 'Lato' , sans-serif;
+    background-color: black;
+}
+
+#container{
+    color: white;
+    width: 100%;
+    height: 350px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.tekst{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35%;
+    margin-top: -16%;
+}
+
+.navigeerlinks{
+    padding-bottom: 10px;
+}
+.tekst1{
+    padding-bottom: 10px;
+    padding-left: 61%;
+    margin-top: -14%;
+   
+}
+.img{
+    width: 20%;
+    height: 20%;
+    padding-left: 61%;
+}
