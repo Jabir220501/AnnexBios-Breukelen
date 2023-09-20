@@ -19,7 +19,7 @@
         <section id="film_agenda_xl">
             <div id="agenda-container">
                 <div class="agenda-text">
-                    <h1>Film Agenda</h1>
+                    <h1>FILM AGENDA</h1>
                 </div>
                 <div class="lower-row"></div>
             </div>

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-
+body{
+  font-family: "Lato", sans-serif;
+}
 #film_agenda_xl {
     background-image: url("../images/header/header_afbeelding.jpg");
     background-color: black;
@@ -17,4 +19,5 @@
   .agenda-text{
     color: #8B9E51;
     padding-left: 3%;
+    font-size: 50px;
   }
