@@ -1,33 +1,190 @@
 #hero {
+    background-image: url("../images/header/header_afbeelding.jpg");
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    max-height: 1540px;
+
     .hero_wrapper {
-        background-image: url("../images/header/header_afbeelding.jpg");
-        background-color: black;
-        background-size: cover;
-        height: 100vh;
-        padding: 0 var(--main_wrapper);
+        padding: clamp(2.1875rem, -0.4666rem + 10.8055vw, 12.5rem) var(--main_wrapper);
 
         .hero_info__container {
             background-color: var(--groen);
-            height: 300px;
+            height: clamp(11.75rem, 8.6616rem + 12.5737vw, 23.75rem);
             color: var(--wit);
+            margin-bottom: clamp(0.625rem, -0.0667rem + 2.816vw, 3.3125rem);
 
             .hero_info {
-                height: 100%;
+                height: 83%;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
-                padding-left: 10px;
+                padding: 11px;
+
 
                 h1 {
+                    font-size: clamp(0.8125rem, 0.0887rem + 2.947vw, 3.625rem);
+                    ;
                     text-transform: uppercase;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: clamp(0.8125rem, 0.6516rem + 0.6549vw, 1.4375rem);
+                    margin-bottom: auto;
                 }
 
                 button {
+                    font-size: clamp(0.8125rem, 0.6999rem + 0.4584vw, 1.25rem);
                     text-transform: uppercase;
+                    font-weight: 600;
+                    height: 35px;
+
+                    a {
+                        color: var(--groen);
+
+                    }
                 }
             }
         }
     }
 
-    .hero_contact__container {}
+    @media only screen and (min-width: 1000px) {
+        .hero_wrapper {
+            .hero_info__container {
+                .hero_info {
+                    padding: 40px;
+                    height: 75%;
+
+                    h1 {
+                        margin-bottom: auto;
+                    }
+
+                    p {
+                        width: 650px;
+                    }
+
+                    button {
+                        height: 55px;
+                        width: 320px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero_contact__container {
+        background-color: var(--wit);
+        max-height: 670px;
+        height: 100%;
+
+        .hero_contact {
+            padding: 11px;
+
+            .hero__maps {
+                position: relative;
+                max-width: 775px;
+                max-height: 585px;
+
+                .locatie_img {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                }
+
+                .hero_contact_info__wrapper {
+                    background-color: var(--groen);
+                    color: white;
+
+                    .contact_info {
+                        padding: 0 15px;
+
+                        img {
+                            max-width: 20px;
+                            width: 100%;
+                            margin-right: 15px;
+                        }
+
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+
+                    .hero_address {
+                        padding: 15px 0 0 15px;
+                    }
+
+                    .hero_bereikbaar {
+                        padding: 15px 0 15px 15px;
+                    }
+
+                    .hero_address,
+                    .hero_number {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+
+        .hero_contact_info__container {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 400px) {
+        .hero_contact_info__wrapper {
+            position: absolute;
+            bottom: -20%;
+            width: 100%;
+        }
+    }
+
+    @media only screen and (min-width: 650px) {
+        .hero_contact__container {
+            .hero_contact {
+                display: flex;
+
+                .hero__maps {
+                    width: 50%;
+                    height: unset;
+                    margin-right: 50px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .hero_contact_info__wrapper {
+                        bottom: 0;
+                    }
+                }
+            }
+
+            .hero_contact_info__container {
+                width: 50%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+#film_agenda{
+    color: var(--groen);
+    .film_agenda__wrapper{
+        padding: 0 var(--main_wrapper);
+        .film_upper__container{
+            .film_agenda_title{
+                background-color: var(--wit);
+                padding: 8px;
+                max-height: 113px;
+            }
+        }
+    }
 }
