@@ -20,8 +20,28 @@
             <div id="agenda-container">
                 <div class="agenda-text">
                     <h1>FILM AGENDA</h1>
+                </div> 
+            </div>
+            <div class="lower-row">
+                <div id="row-1">
+                    <img src="" alt="">
                 </div>
-                <div class="lower-row"></div>
+                <div id="row-2">
+                    <input type="checkbox" name="" id="">
+                    <p></p>
+                </div>
+                <div id="row-3">
+                <input type="checkbox" name="" id="">
+                <p></p>
+                </div>
+                <div id="row-4">
+                <input type="checkbox" name="" id="">
+                <p></p>
+                </div>
+                <div id="row-5">
+                    <p></p>
+                    <img src="" alt="">
+                </div>
             </div>
         </section>
     </main>
