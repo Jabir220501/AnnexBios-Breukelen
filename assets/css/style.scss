@@ -152,7 +152,7 @@
                 .hero__maps {
                     width: 50%;
                     height: unset;
-                    margin-right: 50px;
+                    margin-right: 20px;
 
                     img {
                         width: 100%;
@@ -175,16 +175,99 @@
     }
 }
 
-#film_agenda{
+#film_agenda {
     color: var(--groen);
-    .film_agenda__wrapper{
+
+    .film_agenda__wrapper {
         padding: 0 var(--main_wrapper);
-        .film_upper__container{
-            .film_agenda_title{
+
+        .film_upper__container {
+            .film_agenda_title {
                 background-color: var(--wit);
-                padding: 8px;
-                max-height: 113px;
+                height: 45px;
+                width: 100%;
+
+                h2 {
+                    margin-left: 11px;
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 4.375rem);
+                    text-transform: uppercase;
+                    font-weight: 600;
+                }
+            }
+
+            .checkboxes {
+                background-color: var(--wit);
+                height: 40px;
+                margin-bottom: 5px;
+
+                label {
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    margin-left: 11px;
+                    font-size: clamp(0.8125rem, 0.725rem + 0.4375vw, 1.25rem);
+                    text-transform: uppercase;
+
+                    input {
+                        margin-right: 5px;
+                    }
+                }
             }
         }
     }
+
+    @media only screen and (min-width: 1000px) {
+        .film_agenda__wrapper {
+            .film_upper__container {
+                .film_agenda_title {
+                    height: 113px;
+                    width: 776px;
+
+                    h2 {
+                        margin-left: 30px;
+                    }
+                }
+
+                .film_upper_container__checklist {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 15px;
+                    width: 776px;
+
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    .checkboxes {
+                        height: 46px;
+                        margin-bottom: 0px;
+                        margin-right: 5px;
+                        width: 100%;
+
+                        label {
+                            display: flex;
+                            align-items: center;
+                            height: 100%;
+                            margin-left: 0px;
+                            margin-left: 10px;
+
+                            input {
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+
+                    .categorie_checkbox {
+                        margin-right: 0;
+                    }
+                }
+            }
+
+        }
+    }
+
 }
