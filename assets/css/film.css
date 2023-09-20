@@ -41,13 +41,13 @@
     margin-top: 50px;
   }
   #film__container .film__wrapper .film_poster_and_info__container .film_poster {
-    width: 45%;
+    width: 40%;
     margin-right: 15px;
   }
   #film__container .film__wrapper .film_poster_and_info__container .film_poster img {
     width: 100%;
   }
   #film__container .film__wrapper .film_poster_and_info__container .film_info__container {
-    width: 55%;
+    width: 60%;
   }
 }/*# sourceMappingURL=film.css.map */
