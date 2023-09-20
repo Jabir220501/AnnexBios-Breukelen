@@ -1,0 +1,44 @@
+body{
+    width: 100%;
+}
+.titel{
+    color: white;
+    background-color: white;
+}
+#film_agenda_xl {
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 var(--main_wrapper);
+    padding-top: 60px;
+  }
+  #agenda-container{
+    width: 1574px;
+    height: 80px;
+    background-color: white;
+    margin-left: 0%;
+  }
+  .agenda-text{
+    color: #8B9E51;
+    font-size: 65px;
+    margin-left: 2%;
+  }
+  #container-dino{
+    width: 50%;
+    height: 100px;
+  }
+  .dinofoto{
+    height: 300px;
+    width: 300px;
+  }
+  #informatie-container{
+    width: 900px;
+    height: 1013px;
+    background-color: white;
+    margin-left: 40%;
+    margin-top: -15%;
+  }
+  .button{
+    width: 50%;
+    height: 50%;
+  }
