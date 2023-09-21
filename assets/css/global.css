@@ -190,10 +190,12 @@ header nav ul a {
 .movie_card__container .movie_card .movie_card_info__container {
     background-color: var(--wit);
     margin-top: -3px;
+    height: 330px;
 }
 
 .movie_card__container .movie_card .movie_card_info__container .movie_card_info__wrapper {
     padding: 15px;
+    height: calc(100% - 30px);
 }
 
 .movie_card__container .movie_card .movie_card_info__container .movie_card_info__wrapper h2 {
@@ -217,7 +219,7 @@ header nav ul a {
 
 .movie_card__container .movie_card .movie_card_info__container .movie_card_info__wrapper .movie_desc {
     color: var(--grijs);
-    height: 90px;
+    height: 50%;
 }
 
 .movie_card__container .movie_card .movie_card_info__container .movie_card_info__wrapper button {
@@ -233,6 +235,9 @@ header nav ul a {
 }
 
 @media only screen and (min-width: 661px) {
+    .movie_card_info__container{
+        height: 480px !important;
+    }
     .movie_card__container .movie_card {
         max-width: 252px;
         width: 100%;
@@ -240,6 +245,7 @@ header nav ul a {
 
     .movie_card__container .movie_card .movie_card__picture img {
         width: 100%;
+        height: 350px;
     }
 
     .movie_card__container .movie_card .movie_card_info__container .movie_card_info__wrapper h2 {
