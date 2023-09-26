@@ -7,6 +7,7 @@
     <title>AnnexBios</title>
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/getAllData.js" defer></script>
 </head>
 
 <body>
@@ -90,29 +91,8 @@
                 <!-- Movie Cards -->
                 <div class="movie_card__container">
                     <!-- Card -->
-                    <div class="movie_card">
-                        <div class="movie_card__picture">
-                            <img src="./assets/images/films/Jurassic-World_-Fallen-Kingdom.jpg" alt="">
-                        </div>
-                        <div class="movie_card_info__container">
-                            <div class="movie_card_info__wrapper">
-                                <h2>JURASSIC WORLD:FALLEN KINGDOM</h2>
-                                <div class="movie_rate">
-                                    <img src="./assets/images/icons/ster.svg" alt="">
-                                    <img src="./assets/images/icons/ster.svg" alt="">
-                                    <img src="./assets/images/icons/ster.svg" alt="">
-                                    <img src="./assets/images/icons/ster.svg" alt="">
-                                    <img src="./assets/images/icons/ster_open.svg" alt="">
-                                </div>
-                                <h3>Release: 7-06-2018</h3>
-                                <div class="movie_desc">
-                                    <p>Welkom in Jurassic World: Fallen Kingdom! Favoriete personages keren terug in dit 3D actie-spektakel.</p>
-                                </div>
-                                <button><a href="#">Meer info & Tickets</a></button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+                <button><a href="overzicht">Bekijk Alle Films</a></button>
             </div>
         </section>
     </main>

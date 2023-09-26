@@ -1,10 +1,10 @@
 <header>
     <div class="logo">
-        <img src="./assets/images/logo_hoofd.png" alt="">
+        <a href="./"><img src="./assets/images/logo_hoofd.png" alt=""></a>
     </div>
     <nav>
         <ul>
-            <li><a href="#">Film agenda</a></li>
+            <li><a href="overzicht">Film agenda</a></li>
             <li><a href="#">Alle vestiging</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
