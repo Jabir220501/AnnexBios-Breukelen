@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,40 +9,73 @@
     <link rel="stylesheet" href="./assets/css/overzicht.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-     <!-- Header -->
-     <?php
+    <!-- Header -->
+    <?php
     include './components/Header/header.php'
         ?>
     <!-- Main -->
     <main>
         <!-- Film Agenda XL -->
-        <section id="film_agenda_xl">
-            <div id="agenda-container">
-                <div class="agenda-text">
-                    <h1>FILM AGENDA</h1>
-                </div> 
+        <section id="film_agenda_xl__container">
+            <div class="bg_img">
+                <img src="./assets/images/header/header_afbeelding.jpg" alt="Header Afbeelding Bioscoop">
             </div>
-            <div class="lower-row">
-                <div id="row-1">
-                    <img src="" alt="">
+            <section id="film_agenda">
+                <div class="film_agenda__wrapper">
+                    <div class="film_upper__container">
+                        <!-- Title -->
+                        <div class="film_agenda_title">
+                            <h2>Film Agenda</h2>
+                        </div>
+                        <!-- Keuzes -->
+                        <div class="film_upper_container__checklist">
+                            <img src="./assets/images/icons/settings.png" alt="">
+                            <div class="film_checkbox checkboxes">
+                                <label for="#"><input type="checkbox">Films</label>
+                            </div>
+                            <div class="deze_week_checkbox checkboxes">
+                                <label for="#"><input type="checkbox">Deze Week</label>
+                            </div>
+                            <div class="vandaag_checkbox checkboxes">
+                                <label for="#"><input type="checkbox">Vandaag</label>
+                            </div>
+                            <div class="categorie_checkbox checkboxes">
+                                <label for="#"><input type="checkbox">Categorie</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Movie Cards -->
+                    <div class="movie_card__container">
+                        <!-- Card -->
+                        <div class="movie_card">
+                            <div class="movie_card__picture">
+                                <img src="./assets/images/films/Jurassic-World_-Fallen-Kingdom.jpg" alt="">
+                            </div>
+                            <div class="movie_card_info__container">
+                                <div class="movie_card_info__wrapper">
+                                    <h2>JURASSIC WORLD:FALLEN KINGDOM</h2>
+                                    <div class="movie_rate">
+                                        <img src="./assets/images/icons/ster.svg" alt="">
+                                        <img src="./assets/images/icons/ster.svg" alt="">
+                                        <img src="./assets/images/icons/ster.svg" alt="">
+                                        <img src="./assets/images/icons/ster.svg" alt="">
+                                        <img src="./assets/images/icons/ster_open.svg" alt="">
+                                    </div>
+                                    <h3>Release: 7-06-2018</h3>
+                                    <div class="movie_desc">
+                                        <p>Welkom in Jurassic World: Fallen Kingdom! Favoriete personages keren terug in
+                                            dit 3D actie-spektakel.</p>
+                                    </div>
+                                    <button><a href="#">Meer info & Tickets</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="row-2">
-                    <input type="checkbox" name="" id="">
-                    <p></p>
-                </div>
-                <div id="row-3">
-                <input type="checkbox" name="" id="">
-                <p></p>
-                </div>
-                <div id="row-4">
-                <input type="checkbox" name="" id="">
-                <p></p>
-                </div>
-                <div id="row-5">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
+            </section>
+            <div class="bg_img-black">
             </div>
         </section>
     </main>
@@ -49,6 +83,7 @@
     <!-- Footer -->
     <?php
     // include './components/Footer/footer.php'
-        ?>
+    ?>
 </body>
+
 </html>

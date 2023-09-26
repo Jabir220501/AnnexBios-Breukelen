@@ -1,0 +1,53 @@
+#film__container {
+  padding-top: 60px;
+}
+#film__container .film__wrapper {
+  padding: 0 var(--main_wrapper);
+}
+#film__container .film__wrapper .film_tile {
+  background-color: var(--wit);
+  width: 100%;
+  padding: 5px 0 5px 0;
+  color: var(--groen);
+}
+#film__container .film__wrapper .film_tile h2 {
+  margin-left: 11px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: clamp(1.25rem, 0.625rem + 3.125vw, 4.375rem);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#film__container .film__wrapper .film_poster_and_info__container {
+  margin-top: 25px;
+}
+#film__container .film__wrapper .film_poster_and_info__container .film_poster {
+  width: 100%;
+}
+#film__container .film__wrapper .film_poster_and_info__container .film_poster img {
+  width: 100%;
+}
+#film__container .film__wrapper .film_poster_and_info__container .film_info__container {
+  background-color: var(--wit);
+}
+#film__container .film__wrapper .film_poster_and_info__container .film_info__container .film_info__wrapper {
+  padding: 15px;
+}
+@media only screen and (min-width: 1000px) {
+  #film__container .film__wrapper .film_poster_and_info__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  #film__container .film__wrapper .film_poster_and_info__container .film_poster {
+    width: 40%;
+    margin-right: 15px;
+  }
+  #film__container .film__wrapper .film_poster_and_info__container .film_poster img {
+    width: 100%;
+  }
+  #film__container .film__wrapper .film_poster_and_info__container .film_info__container {
+    width: 60%;
+  }
+}/*# sourceMappingURL=film.css.map */

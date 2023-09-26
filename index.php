@@ -19,6 +19,7 @@
         <!-- Hero -->
         <section id="hero">
             <div class="hero_wrapper">
+                <!-- Upper Container -->
                 <div class="hero_info__container">
                     <div class="hero_info">
                         <h1>Welkom bij AnnexBios 3</h1>
@@ -27,8 +28,10 @@
                         <button><a href="#">Bekijk de draaiende films</a></button>
                     </div>
                 </div>
+                <!-- Bottom Container -->
                 <div class="hero_contact__container">
                     <div class="hero_contact">
+                        <!-- Right Part -->
                         <div class="hero__maps">
                             <img src="./assets/images/maps/maps.png" alt="Locatie Afbeelding" class="locatie_img">
                             <div class="hero_contact_info__wrapper">
@@ -51,6 +54,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Left Part -->
                         <div class="hero_contact_info__container">
                             <img src="./assets/images/gebouw/Hellevoetssluis.png" alt="Bioscoop foto buiten">
                         </div>
@@ -62,24 +66,50 @@
         <section id="film_agenda">
             <div class="film_agenda__wrapper">
                 <div class="film_upper__container">
+                    <!-- Title -->
                     <div class="film_agenda_title">
                         <h2>Film Agenda</h2>
                     </div>
+                    <!-- Keuzes -->
                     <div class="film_upper_container__checklist">
-                        <img src="#" alt="">
+                        <img src="./assets/images/icons/settings.png" alt="">
                         <div class="film_checkbox checkboxes">
-                            <input type="checkbox">
+                            <label for="#"><input type="checkbox">Films</label>
                         </div>
                         <div class="deze_week_checkbox checkboxes">
-                            <input type="checkbox">
+                            <label for="#"><input type="checkbox">Deze Week</label>
                         </div>
                         <div class="vandaag_checkbox checkboxes">
-                            <input type="checkbox">
+                            <label for="#"><input type="checkbox">Vandaag</label>
                         </div>
-                        <div class="catgegorie__dropdown">
-                            <select name="#" id="#">
-                                <option>Categorie</option>
-                            </select>
+                        <div class="categorie_checkbox checkboxes">
+                            <label for="#"><input type="checkbox">Categorie</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Cards -->
+                <div class="movie_card__container">
+                    <!-- Card -->
+                    <div class="movie_card">
+                        <div class="movie_card__picture">
+                            <img src="./assets/images/films/Jurassic-World_-Fallen-Kingdom.jpg" alt="">
+                        </div>
+                        <div class="movie_card_info__container">
+                            <div class="movie_card_info__wrapper">
+                                <h2>JURASSIC WORLD:FALLEN KINGDOM</h2>
+                                <div class="movie_rate">
+                                    <img src="./assets/images/icons/ster.svg" alt="">
+                                    <img src="./assets/images/icons/ster.svg" alt="">
+                                    <img src="./assets/images/icons/ster.svg" alt="">
+                                    <img src="./assets/images/icons/ster.svg" alt="">
+                                    <img src="./assets/images/icons/ster_open.svg" alt="">
+                                </div>
+                                <h3>Release: 7-06-2018</h3>
+                                <div class="movie_desc">
+                                    <p>Welkom in Jurassic World: Fallen Kingdom! Favoriete personages keren terug in dit 3D actie-spektakel.</p>
+                                </div>
+                                <button><a href="#">Meer info & Tickets</a></button>
+                            </div>
                         </div>
                     </div>
                 </div>
