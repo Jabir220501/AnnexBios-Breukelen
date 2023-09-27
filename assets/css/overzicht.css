@@ -16,8 +16,20 @@ body{
     background-color: white;
     margin-left: inherit;
   }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 73fa042e0d6c41aff8ba310747fef55e62a9feb2
   .agenda-text{
     color: #8B9E51;
     padding-left: 3%;
     font-size: 50px;
+<<<<<<< HEAD
   }
+=======
+    transform: translate(0px, 10px);
+  }
+=======
+}
+>>>>>>> f9adec1bee63f7083b32e61b227c1ea46e1cf8af
+>>>>>>> 73fa042e0d6c41aff8ba310747fef55e62a9feb2
