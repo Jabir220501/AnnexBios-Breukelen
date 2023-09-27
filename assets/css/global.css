@@ -173,7 +173,7 @@ header nav ul a {
     margin-top: 25px;
 }
 
-.movie_card__container .movie_card:nth-child(4n) {
+.movie_card__container .movie_card:nth-child(6n) {
     margin-right: 0;
 }
 
