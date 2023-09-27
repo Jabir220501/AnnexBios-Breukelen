@@ -127,6 +127,37 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="controleer-bestelling">
+                                <h2>STAP 3: CONTROLEER JE BESTELLING</h2>
+                                <div class="controleer-bestelling__container">
+                                    <img src="./assets/images/films/Jurassic-World_-Fallen-Kingdom.jpg" alt="">
+                                    <div class="film-info">
+                                        <h2>JURASSIC WORLD: FALLEN KINGDOM </h2>
+                                        <div class="movie_icons">
+                                            <img src="./assets/images/kijkwijzers/kijkwijzer-12.png" alt="">
+                                            <img src="./assets/images/kijkwijzers/kijkwijzer-eng.png" alt="">
+                                            <img src="./assets/images/kijkwijzers/kijkwijzer-geweld.png" alt="">
+                                        </div>
+                                        <div class="movie-order-info">
+                                            <div class="locatie">
+                                                <p><span>Bioscoop:</span> Hellevoetsluit (Zaal 3)</p>
+                                            </div>
+                                            <div class="wanneer">
+                                                <p><span>Wanneer:</span> 11 juni 14:15</p>
+                                            </div>
+                                            <div class="stoel">
+                                                <p><span>Stoelen:</span> Rij 2, stoel 7</p>
+                                            </div>
+                                            <div class="ticket">
+                                                <p><span>Tickets:</span> 1x normaal</p>
+                                            </div>
+                                            <div class="totaal-ticket">
+                                                <span><span> Totaal 1 ticket:</span> €9,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

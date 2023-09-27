@@ -186,9 +186,14 @@ main {
                         }
 
                         .stoelen {
+                            margin-top: 20px;
+                            display: flex;
+                            align-items: center;
+
                             .stoel-parent {
                                 width: 55px;
                                 height: 48px;
+                                scale: .7;
                                 background-color: #95C579;
                                 border-radius: 10px;
                                 position: relative;
@@ -210,10 +215,40 @@ main {
                                     top: 0;
                                     width: 35px;
                                     height: 17px;
-                                    background-color: #B1D59D;  
+                                    background-color: #B1D59D;
                                     border-bottom: 2px solid #ABD295;
                                     border-right: 2px solid #ABD295;
                                     border-left: 2px solid #ABD295;
+                                }
+                            }
+                        }
+                    }
+
+                    .controleer-bestelling {
+                        margin-top: 50px;
+                        h2 {
+                            text-transform: uppercase;
+                            font-weight: 600;
+                            margin-bottom: 20px;
+                        }
+                        .controleer-bestelling__container{
+                            padding: 10px;
+                            border: 1px solid var(--groen);
+                            img{
+                                width: 100%;
+                            }
+                            .film-info{
+                                color: var(--grijs);
+                                .movie_icons{
+                                    display: flex;
+                                    align-items: center;
+                                    margin-top: 15px;
+                                    img{
+                                        width: clamp(1.875rem, 1.6875rem + 0.9375vw, 2.8125rem);
+                                        &:not(:last-child){
+                                            margin-right: 5px;
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -320,6 +355,36 @@ main {
                         width: 100%;
                         padding: 4px;
                         color: white;
+                    }
+                }
+
+            }
+
+            .stoelen-reserveren {
+                .stoelen {
+                    margin-top: 30px !important;
+                    justify-content: center;
+
+                    .stoel-parent {
+                        width: 55px !important;
+                        height: 48px !important;
+                        scale: 1 !important;
+                    }
+                }
+            }
+            .controleer-bestelling{
+                .controleer-bestelling__container{
+                    display: flex;
+                    img{
+                        width: 215px !important;
+                        margin-right: 15px;
+                    }
+                    .film-info{
+                        .movie_icons{
+                            img{
+                                width: clamp(1.875rem, 1.6875rem + 0.9375vw, 2.8125rem) !important;
+                            }
+                        }
                     }
                 }
             }

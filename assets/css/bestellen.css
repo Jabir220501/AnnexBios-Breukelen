@@ -154,9 +154,15 @@ main {
   font-size: 12px;
   font-weight: 600;
 }
+#bestellen .bestellen__wrapper .bestel_container .bestel-sectie .bestel-sectie_wrapper .stoelen-reserveren .stoelen {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
 #bestellen .bestellen__wrapper .bestel_container .bestel-sectie .bestel-sectie_wrapper .stoelen-reserveren .stoelen .stoel-parent {
   width: 55px;
   height: 48px;
+  scale: 0.7;
   background-color: #95C579;
   border-radius: 10px;
   position: relative;
@@ -181,6 +187,35 @@ main {
   border-bottom: 2px solid #ABD295;
   border-right: 2px solid #ABD295;
   border-left: 2px solid #ABD295;
+}
+#bestellen .bestellen__wrapper .bestel_container .bestel-sectie .bestel-sectie_wrapper .controleer-bestelling {
+  margin-top: 50px;
+}
+#bestellen .bestellen__wrapper .bestel_container .bestel-sectie .bestel-sectie_wrapper .controleer-bestelling h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#bestellen .bestellen__wrapper .bestel_container .bestel-sectie .bestel-sectie_wrapper .controleer-bestelling .controleer-bestelling__container {
+  padding: 10px;
+  border: 1px solid var(--groen);
+}
+#bestellen .bestellen__wrapper .bestel_container .bestel-sectie .bestel-sectie_wrapper .controleer-bestelling .controleer-bestelling__container img {
+  width: 100%;
+}
+#bestellen .bestellen__wrapper .bestel_container .bestel-sectie .bestel-sectie_wrapper .controleer-bestelling .controleer-bestelling__container .film-info {
+  color: var(--grijs);
+}
+#bestellen .bestellen__wrapper .bestel_container .bestel-sectie .bestel-sectie_wrapper .controleer-bestelling .controleer-bestelling__container .film-info .movie_icons {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+#bestellen .bestellen__wrapper .bestel_container .bestel-sectie .bestel-sectie_wrapper .controleer-bestelling .controleer-bestelling__container .film-info .movie_icons img {
+  width: clamp(1.875rem, 1.6875rem + 0.9375vw, 2.8125rem);
+}
+#bestellen .bestellen__wrapper .bestel_container .bestel-sectie .bestel-sectie_wrapper .controleer-bestelling .controleer-bestelling__container .film-info .movie_icons img:not(:last-child) {
+  margin-right: 5px;
 }
 @media only screen and (min-width: 650px) {
   #bestellen .bestellen__wrapper .film_title {
@@ -258,5 +293,24 @@ main {
     width: 100%;
     padding: 4px;
     color: white;
+  }
+  #bestellen .bestellen__wrapper .stoelen-reserveren .stoelen {
+    margin-top: 30px !important;
+    justify-content: center;
+  }
+  #bestellen .bestellen__wrapper .stoelen-reserveren .stoelen .stoel-parent {
+    width: 55px !important;
+    height: 48px !important;
+    scale: 1 !important;
+  }
+  #bestellen .bestellen__wrapper .controleer-bestelling .controleer-bestelling__container {
+    display: flex;
+  }
+  #bestellen .bestellen__wrapper .controleer-bestelling .controleer-bestelling__container img {
+    width: 215px !important;
+    margin-right: 15px;
+  }
+  #bestellen .bestellen__wrapper .controleer-bestelling .controleer-bestelling__container .film-info .movie_icons img {
+    width: clamp(1.875rem, 1.6875rem + 0.9375vw, 2.8125rem) !important;
   }
 }/*# sourceMappingURL=bestellen.css.map */
