@@ -178,9 +178,9 @@ main {
   width: 35px;
   height: 17px;
   background-color: #B1D59D;
-  border-bottom: 1px solid #ABD295;
-  border-right: 1px solid #ABD295;
-  border-left: 1px solid #ABD295;
+  border-bottom: 2px solid #ABD295;
+  border-right: 2px solid #ABD295;
+  border-left: 2px solid #ABD295;
 }
 @media only screen and (min-width: 650px) {
   #bestellen .bestellen__wrapper .film_title {
