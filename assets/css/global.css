@@ -16,11 +16,12 @@
     --main_wrapper: clamp(1.875rem, 0.125rem + 8.75vw, 10.625rem);
 }
 
-body {
+body,
+a {
     font-family: var(--typografie);
 }
 
-main{
+main {
     background: black;
 }
 
@@ -42,6 +43,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px var(--main_wrapper);
+    background-color: var(--wit);;
 }
 
 header .logo {
@@ -162,9 +164,10 @@ header nav ul a {
         font-size: 15px;
     }
 }
+/* End Styling Header */
 
 /* styling footer */
-#containerr{
+#container{
     color: white;
     width: 100%;
     height: 350px;
@@ -176,24 +179,28 @@ header nav ul a {
     bottom: 0%;
     position: absolute;
 }
-.tekst{
+
+.tekst {
     display: flex;
     flex-direction: column;
     padding-left: 35%;
     margin-top: -16%;
 }
 
-.navigeerlinks{
+.navigeerlinks {
     padding-bottom: 10px;
 }
-.tekst1{
+
+.tekst1 {
     padding-bottom: 10px;
     padding-left: 61%;
     margin-top: -14%;
-   
+
 }
-.img{
+
+.img {
     width: 20%;
     height: 20%;
     padding-left: 61%;
 }
+/* End Styling Footer */

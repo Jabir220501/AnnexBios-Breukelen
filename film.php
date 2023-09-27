@@ -7,6 +7,7 @@
     <title></title>
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/film.css">
+    <script src="./assets/js/getDataById.js" defer></script>
 </head>
 
 <body>
@@ -17,29 +18,69 @@
     <!-- Main -->
     <main>
         <!-- Film -->
-        <section id="film">
-        <section id="film_agenda_xl">
-            <div id="agenda-container">
-                <div class="agenda-text">
-                    <h1>JURASSIC WORLD: FALLEN KINGDOM </h1>
+        <section id="film__container">
+            <div class="film__wrapper">
+                <!-- Title -->
+                <div class="film_tile">
                 </div>
-                
-      
-            
-            <div class="dinofoto">
-                <img src="./assets/images/icons/dino.png " style="width: 680px; height:1014px; margin-top: 20%">
+                <!-- Info -->
+                <div class="film_poster_and_info__container">
+                    <!-- Left -->
+                    <div class="film_poster">
+                    </div>
+                    <!-- Right -->
+                    <div class="film_info__container">
+                        <div class="film_info__wrapper">
+                            <div class="movie_rate">
+                                <img src="./assets/images/icons/ster.svg" alt="">
+                                <img src="./assets/images/icons/ster.svg" alt="">
+                                <img src="./assets/images/icons/ster.svg" alt="">
+                                <img src="./assets/images/icons/ster.svg" alt="">
+                                <img src="./assets/images/icons/ster_open.svg" alt="">
+                            </div>
+                            <div class="movie_icons">
+                                <img src="./assets/images/kijkwijzers/kijkwijzer-12.png" alt="">
+                                <img src="./assets/images/kijkwijzers/kijkwijzer-eng.png" alt="">
+                                <img src="./assets/images/kijkwijzers/kijkwijzer-geweld.png" alt="">
+                            </div>
+                            <h3 class="release_date"></h3>
+                            <div class="movie_desc">
+                            </div>
+                            <div class="movie_info">
+                                <div class="genre">
+                                    <p class="genre_text_bold">Genre <span>Actie</span></p>
+                                </div>
+                                <div class="filmlengte">
+                                    <p class="genre_text_bold">Filmlengte <span>128 minutes</span></p>
+                                </div>
+                                <div class="land">
+                                    <p class="genre_text_bold">Land <span>USA</span></p>
+                                </div>
+                                <div class="imdb_score">
+                                    <p class="genre_text_bold">Imdb score <span>8.3/10</span></p>
+                                </div>
+                                <div class="regisseur">
+                                    <p class="genre_text_bold">Regisseur <span>Juan Antonio Bayona</span></p>
+                                </div>
+                                <div class="acteurs">
+                                    <p class="genre_text_bold">Acteurs</p>
+                                </div>
+                                <div class="actor_profile">
+                                    <div class="actor_card">
+                                        <img src="./assets/images/acteurs/" alt="">
+                                        <p>Bryce Dallas Howard</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button><a href="#">Koop Je Tickets</a></button>
+                <div class="trailer_video">
+                    <iframe src="https://www.youtube.com/embed/uYPbbksJxIg">
+                    </iframe>
+                </div>
             </div>
-            <div id="informatie-container">
-                <div class="informatie-tekst">
-                
-                </div>
-                
-            </div>
-            <div class="button">
-                <button type="button" style="width: 800px; margin-top:4%; height: 60px; background-color:#8B9E51; color:white; font-size:20px; ">KOOP JE TICKETS</button>
-                </div>
-        </section>
-
         </section>
         
     </main>
@@ -47,7 +88,7 @@
     <!-- Footer -->
     <?php
     // include './components/Footer/footer.php'
-        ?>
+    ?>
 </body>
 
 </html>

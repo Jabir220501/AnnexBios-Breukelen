@@ -3,6 +3,7 @@ body{
   font-family: "Lato", sans-serif;
 }
 #film_agenda_xl {
+    background-image: url("../images/header/header_afbeelding.jpg");
     background-color: black;
     background-size: cover;
     height: 100vh;
@@ -13,14 +14,10 @@ body{
     width: 776px;
     height: 113px;
     background-color: white;
-    display: flex;
-    align-items: center;
+    margin-left: inherit;
   }
   .agenda-text{
     color: #8B9E51;
-<<<<<<< HEAD
-=======
     padding-left: 3%;
     font-size: 50px;
->>>>>>> ea31c5dcbc12c11bee19954d74569fd6852223ef
   }
