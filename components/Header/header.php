@@ -1,6 +1,6 @@
 <header>
     <div class="logo">
-        <a href="./"><img src="./assets/images/logo_hoofd.png" alt=""></a>
+        <a href="./"><img src="./assets/images/icons/logo.svg" alt=""></a>
     </div>
     <nav>
         <ul>
